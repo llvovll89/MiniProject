@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lotto.css">
+    <link rel="stylesheet" href="./clock.css">
+</head>
+<style>
+    html,body {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <!-- <h1 class="title">할롱방구</h1>
+    <form action="">
+        <input type="text" id="input" autocomplete="off" required placeholder="입력해주세요">
+        <select id="select">
+            <option value="">이강민</option>
+            <option value="">권지훈</option>
+            <option value="">김덕하</option>
+            <option value="">조성우</option>
+        </select>
+        <button class="btn">click</button>
+        <div class="value1"></div>
+    </form> -->
+    <!-- lotto -->
+    <div class="lotto-body">
+    <div class="container">
+        <div class="lotto">
+            <h2>로또추첨기</h2>
+            <div class="numbers"></div>
+            <button class="draw">추첨</button>
+            <button class="reset">다시</button>
+        </div>
+    </div>
+    </div>
+    <!-- clock -->
+    <div class="clock-body">
+    <div class="clock">
+        <!-- 날짜표시 -->
+        <div class="today" id="today"></div>
+        <!-- 시계표시 -->
+        <div class="time" id="time"></div>
+    </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./lotto.js"></script>
+    <script src="./clock.js"></script>
+</body>
+
+</html>
